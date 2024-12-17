@@ -1,0 +1,238 @@
+.moon{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    color: aliceblue;
+}
+.common{
+    display: flex;
+    justify-content: space-between;
+}
+.common nav ul {
+    display: flex;
+    gap: 4rem;
+      list-style-type: none;
+    /* text-decoration: none; */
+}
+.common nav ul li a{
+    /* list-style-type: none; */
+    text-decoration: none;
+}
+.dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 100%;
+    display: none;
+}
+.dropdown:hover .dropdown-content { 
+    display: block;
+    flex-direction: column;
+ }
+ .background { 
+    background-image: url("https://preview.colorlib.com/theme/vegefoods/images/bg_2.jpg.webp"); 
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+    color: white; 
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+ }
+ .win button{
+    background-color: forestgreen;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 15px 18px;
+    border-color:  green;
+    cursor: pointer;
+ }
+ .win button:hover{
+    background-color: transparent;
+ }
+ .succes{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 150px;
+    padding: 20px;
+    
+
+ }
+ .succes img{
+    width: 160px;
+    /* padding: 10px; */
+ }
+ .succes p{
+    text-align: center;
+ }
+ .pepper{
+    display: flex;
+ gap: 5rem;
+
+ }
+ .apple{
+display: flex;
+flex-wrap: wrap;
+   margin-top: 2rem;
+ }
+ .text{
+    text-align: center;
+ }
+.pepper .succes img:hover{
+    transform: scale(1.1);
+
+ }
+ .star i{
+    background-color: green;
+    border-radius: 50%;
+    padding: 7px;
+    color: #fff;
+ }
+ .pepper  .star {
+    display: none;
+
+ }
+ .text h2{
+    color: green;
+ }
+ .succes:hover .star{
+    display: block;
+ }
+.pear{
+    background-image: url("https://preview.colorlib.com/theme/vegefoods/images/bg_3.jpg.webp");
+    height: 600px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+    color: white; 
+    /* text-align: center;  */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin-top: 2rem;
+}
+.root{
+    color: black;
+    margin-left: 41rem;
+    font-size: 20px;
+}
+.root p{
+    color: green;
+}
+.root span{
+    color: gray;
+}
+.red img{
+    border-radius: 50%;
+   width: 100px;
+}
+.color{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* width: 200px; */
+    width:20% ;
+    overflow: hidden; 
+    height: 100%;
+    margin: 0;
+    
+}
+/* .end span{
+   font-size: 10px;
+} */
+
+.red {
+   text-align: center; 
+   margin-top: 1rem;
+   /* position: absolute; */
+   
+}
+.black{
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   gap: 2rem;
+    position: absolute;
+    margin-top: 9rem;
+  
+}
+.one{
+   text-align: center;
+   margin-top: 3rem;
+}
+.one p{
+   color: green;
+}
+
+.img i{
+    position: relative;
+    left: -2rem;
+    top: -1rem;
+    border-radius:50% ;
+    background-color: rgb(235, 245, 235);
+    padding: 6px;
+    color:green;
+}
+
+
+.green{
+   margin-top: 30rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.gold nav{
+   display: flex;
+   gap: 2rem;
+}
+.gold nav ul{
+   list-style-type: none;
+}
+.gold nav ul li a{
+   text-decoration: none;
+}
+.memory i{
+   padding: 14px;
+   background-color: rgb(235, 240, 245);
+   border-radius: 50%;
+   cursor: pointer;
+
+ 
+}
+.apple h1{
+  
+   color: red;
+   margin: 0 auto;
+}
+#button{
+   padding: 5px 20px;
+   border-radius: 10px;
+   background-color:black;
+   color: aliceblue;
+   cursor: pointer;
+   border: 1px solid;
+}
+#button:hover{
+   background-color: transparent;
+   color: black;
+   border: 1px solid;
+   
+}
+#form{
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+}
+.apple button{
+   padding: 6px 4rem;
+   background-color: rgb(139, 17, 17);
+   color: #fff;
+   border: 1px solid;
+   
+}
